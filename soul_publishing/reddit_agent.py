@@ -42,6 +42,7 @@ class RedditAgent:
             return posts
         except Exception as e:
             print(f"An unexpected error occurred: {e}")
+            return[]
 
 
 if __name__ == "__main__":
