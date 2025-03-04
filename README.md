@@ -10,18 +10,24 @@ This project uses Poetry for dependency management and leverages the (Cheery JVM
 ## Setup
 
 1. Clone the repository or download the project files.
+
 2. Rename `./.env.example` file to `./.env`
+
 3. Set your secrets values per key in the `./.env` file
+
 4. Install Poetry if not already installed:
    ```bash
    curl -sSL https://install.python-poetry.org | python3 -
+
 5. Set up dependencies:
    ```bash
    poetry install
+
 6.  Run the tests:
    ```bash
    poetry run pytest
-6. Run the Reddit agent script
+
+7. Run the Reddit agent script
    ```bash
    poetry run python soul_publishing/reddit_agent.py
 
