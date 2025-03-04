@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "soul_publishing"
+version = "0.1.0"
+description = ""
+authors = ["Evgeni Kostadinov evgenikostadinov@gmail.com"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+praw = "^7.8.1"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
