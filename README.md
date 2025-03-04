@@ -28,6 +28,7 @@ This project uses Poetry for dependency management and leverages the (Cheery JVM
    poetry run pytest
 
 7. Run the Reddit agent script
+
    ```bash
    poetry run python soul_publishing/reddit_agent.py
 
